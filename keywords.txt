@@ -1,0 +1,4 @@
+mdMotorController	KEYWORD1
+initialize	KEYWORD2
+run	KEYWORD2
+setSpeed	KEYWORD2
