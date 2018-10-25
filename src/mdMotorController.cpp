@@ -6,7 +6,7 @@ mdMotorController::mdMotorController(int Epin,int Mpin):
 }
 
 //Call during setup() to set pins to outputs
-void mdMotorController::initialize() {
+void mdMotorController::init() {
   pinMode(Epin,OUTPUT);
   pinMode(Mpin,OUTPUT);
 }

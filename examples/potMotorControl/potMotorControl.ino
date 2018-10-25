@@ -13,7 +13,7 @@ void setup() {
   pinMode(pot,INPUT);
   pinMode(button,INPUT_PULLUP);
   //perform setup for motor controller
-  motor.initialize();
+  motor.init();
 }
 
 void loop() {

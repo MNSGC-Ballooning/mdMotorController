@@ -6,7 +6,7 @@
 class mdMotorController {
   public:
     mdMotorController(int Epin,int Mpin);
-    void initialize();
+    void init();
     void run();
     void setSpeed(int target);
   private:
